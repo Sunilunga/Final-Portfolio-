@@ -77,6 +77,13 @@ color: blue;
 .btn:hover {
   transform: scale(1.1);
 }
+footer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
 footer a {
   color: white;
   text-decoration: none;
