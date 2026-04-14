@@ -74,3 +74,15 @@ color: blue;
   gap: 20px; /* espace entre les boutons */
   margin-top: 20px;
 }
+.btn:hover {
+  transform: scale(1.1);
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: orange;
+}
