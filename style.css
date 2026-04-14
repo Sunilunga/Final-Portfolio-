@@ -93,7 +93,7 @@ footer a {
 footer a:hover {
   color: orange;
 }
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .hero {
     flex-direction: column;
     text-align: center;
@@ -103,5 +103,11 @@ footer a:hover {
   body {
     background: #fff;
     color: #000;
+  }
+}
+@media (max-width: 300px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
   }
 }
