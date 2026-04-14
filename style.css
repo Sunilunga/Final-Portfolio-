@@ -28,3 +28,49 @@ nav a{
 nav a:hover {
 color: blue;
 }
+.hero {
+  display: flex;
+  align-items: flex-start
+  justify-content: space-around;
+  padding: 6rem;
+  background: #eee;
+  color: black;
+}
+.left img {
+   width: 25rem;
+  height: 25rem;       /* important pour un cercle parfait */
+  border-radius: 50%;  /* rend l'image ronde */
+  object-fit: cover;   /* évite que l'image soit déformée */
+}
+
+ .btn {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  flex-direction: column;
+}
+.cv {
+  background: orange;
+}
+
+.projets {
+  background: red;
+  color: white;
+}
+
+.contact {
+  background: lightblue;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* espace entre les boutons */
+  margin-top: 20px;
+}
