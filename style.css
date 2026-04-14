@@ -99,3 +99,9 @@ footer a:hover {
     text-align: center;
   }
 }
+@media (prefers-color-scheme: light) {
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
