@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+    background: var(--bg);
+  color: var(--text);
+} 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #ccc;
+  color: black;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav a{
+      text-decoration: none;
+      color: black;
+      transition: 0.3s;
+    }
+nav a:hover {
+color: blue;
+}
