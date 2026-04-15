@@ -112,6 +112,11 @@ footer a:hover {
     flex-direction: column;
     text-align: center;
   }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+}
 }.container {
     background-color: ;
     margin: 4rem auto;
@@ -119,4 +124,23 @@ footer a:hover {
     width: 90%;
      line-height: 1.6;
     letter-spacing: 0.3px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name {
+    font-size: 12px;
+    color: gray;
+    }
+    h2, h3 {
+    margin-top: 3rem;
+    }
+    p {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 2rem;
 }
