@@ -112,4 +112,11 @@ footer a:hover {
     flex-direction: column;
     text-align: center;
   }
+}.container {
+    background-color: ;
+    margin: 4rem auto;
+    padding: 1rem 20px 20px 10px;
+    width: 90%;
+     line-height: 1.6;
+    letter-spacing: 0.3px;
 }
