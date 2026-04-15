@@ -58,6 +58,7 @@ color: blue;
 }
 .cv {
   background: orange;
+  color: white;
 }
 
 .projets {
@@ -67,6 +68,7 @@ color: blue;
 
 .contact {
   background: lightblue;
+  color: white;
 }
 .buttons {
   display: flex;
