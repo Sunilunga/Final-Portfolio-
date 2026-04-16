@@ -43,3 +43,31 @@ Présenter mon profil, mes compétences et mes projets en développement web.
 
 Sun Ilunga
 
+# Portfolio - Sun Lunga
+
+##  Description
+Portfolio personnel présentant mes compétences en développement web et design.
+
+##  Objectif
+Mettre en avant mes compétences techniques et mes outils de travail.
+
+##  Technologies utilisées
+- HTML
+- CSS
+
+##  Sections
+- Accueil
+- À propos
+- Compétences (Tech Skills)
+- Outils
+- Design UI/UX
+- Contact
+
+##  Fonctionnalités
+- Barres de progression animées
+- Design moderne sombre
+- Responsive (mobile / desktop)
+- Background animé
+
+##  Auteur
+Sun Lunga
