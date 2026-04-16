@@ -289,7 +289,7 @@ h1{
     display: flex;
     gap: 3rem;
     width: 90%;
-    margin: 50px auto;
+    margin: 5rem auto;
 }
 
 
@@ -334,4 +334,31 @@ h1{
     .skills-double {
         flex-direction: column;
     }
+}
+.project {
+  background-color: rgb(7, 7, 44);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
