@@ -69,5 +69,11 @@ Mettre en avant mes compétences techniques et mes outils de travail.
 - Responsive (mobile / desktop)
 - Background animé
 
-##  Auteur
 Sun Ilunga
+
+Ce projet est une page web simple en **HTML/CSS** présentant trois projets :
+
+1. **Sunny side agency** – Reproduction de maquette avec HTML et CSS  
+2. **Maquette Netflix** – Reproduction avec Figma  
+3. **Site de vente de vêtement** – Production d’un site e-commerce
+
