@@ -26,23 +26,20 @@ https://ton-lien.netlify.app
 
 ##  Installation
 ```bash
-# Portfolio - Sun Lunga
 
-## 📌 Description
 Ce projet est mon portfolio personnel réalisé en HTML et CSS.
 
-## 🎯 Objectif
+
 Présenter mon profil, mes compétences et mes projets en développement web.
 
-## 🛠️ Technologies utilisées
+
 - HTML
 - CSS
 
-## 📂 Contenu
 - Page CV
 - Section compétences
 - Section projets
 
-## 🚀 Auteur
+
 Sun Ilunga
 
