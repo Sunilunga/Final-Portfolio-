@@ -158,23 +158,39 @@ color: blue;
     display: none;
   }
   
-  .hero {
-    flex-direction: column;   /* image au-dessus, texte en dessous */
-    text-align: center;
-    padding: 2rem;
+ .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6rem;              /* espace généreux sur desktop */
+  background: #eee;
+  color: black;
+}
+
+.left img {
+  width: 25rem;               /* image grande sur desktop */
+  height: 25rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+
+  .right h1 {
+    font-size: 2rem;          /* titres plus petits mais lisibles */
+    margin-bottom: 1rem;
   }
 
-  .left img {
-    width: 180px;             /* taille adaptée au mobile */
-    height: 180px;
-    margin-bottom: 1.5rem;    /* espace entre image et texte */
+  .right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
-  .right h1, 
-  .right h3, 
   .right p {
-    text-align: center;       /* centrer les écrits */
-    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 1rem;          /* évite que le texte touche les bords */
   }
 }
 
@@ -218,6 +234,35 @@ footer a {
 }
 footer a:hover {
   color: orange;
+}
+@media (max-width: 768px) {
+  
+  .projects {
+    grid-template-columns: 1fr;   /* une seule colonne */
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-card h3 {
+    font-size: 2rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  .project-card button {
+    width: 80%;
+    max-width: 25rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+  }
 }
 @media (max-width: 768px) {
   footer {
