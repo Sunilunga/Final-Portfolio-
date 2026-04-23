@@ -22,7 +22,7 @@ Portfolio personnel réalisé en HTML et CSS vanilla.
 ![screenshot](assets/images/profil.webp)
 
 ## Lien du projet
-https://ton-lien.netlify.app
+https://https://PORTFOLIO sun.com.netlify.app
 
 ##  Installation
 ```bash
@@ -77,3 +77,4 @@ Ce projet est une page web simple en **HTML/CSS** présentant trois projets :
 2. **Maquette Netflix** – Reproduction avec Figma  
 3. **Site de vente de vêtement** – Production d’un site e-commerce
 
+ transition: all 0.3s ease;

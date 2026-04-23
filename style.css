@@ -3,39 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.burger {.nav-links a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: white;
-}
-    display: none;
-    font-size: 25px;
-    cursor: pointer;
-}
 @media (max-width: 768px) {
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background-color: #111;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
+    .container {
+        width: 95%;
         padding: 20px;
     }
 
-    .nav-links a {
-        margin: 10px 0;
+    section {
+        padding: 4rem 2remx;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .skills {
+        width: 95%;
+        padding: 20px;
     }
 
-    .burger {
-        display: block;
-    }
-
-    .nav-links.active {
-        display: flex;
+    .skills-double {
+        flex-direction: column;
     }
 }
 
@@ -77,9 +65,9 @@ color: blue;
 }
 .left img {
    width: 25rem;
-  height: 25rem;       /* important pour un cercle parfait */
-  border-radius: 50%;  /* rend l'image ronde */
-  object-fit: cover;   /* évite que l'image soit déformée */
+  height: 25rem;       
+  border-radius: 50%; 
+  object-fit: cover;   
 }
 
  .btn {
@@ -228,6 +216,35 @@ button {
     border: none;
     cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    button {
+        width: 8rem;
+        height: 8rem;
+        margin: auto;
+        display: block;
+    }
+}
 h1{
   color: #123585;
 }
@@ -263,7 +280,7 @@ h1{
     width: 100%;
     height: 8px;
     background: #1e293b;
-    border-radius: 10px;
+    border-radius: 1rem;
     overflow: hidden;
 }
 .progress-bar {
@@ -320,14 +337,13 @@ h1{
     background: #ec4899;
 }
 
-.w85 { width: 85%; }
+.w85 { width: 8%; }
 .w80 { width: 80%; }
 .w75 { width: 75%; }
 .w65 { width: 65%; }
 .w60 { width: 60%; }
 .w40 { width: 40%; }
-.w30 { width: 30%; }
-.w5  { width: 5%; }
+.w30  { width: 30%; }
 
 
 @media (max-width: 768px) {
@@ -337,27 +353,69 @@ h1{
 }
 .project {
   background-color: rgb(7, 7, 44);
-  margin: 20px auto;
-  padding: 20px;
+  margin: 2rem auto;
+  padding: 2rem;
   border-radius: 8px;
-  width: 80%;
+  width: 35%;
   text-align: center;
 }
 .project img {
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
-
 button {
   background-color: #007bff;
   color: white;
   border: none;
-  padding: 10px 15px;
-  margin-top: 10px;
-  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 5rem; /
   cursor: pointer;
+  font-weight: bold;
+ 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 button:hover {
   background-color: #0056b3;
+  transform: scale(1.05); /* petit zoom au survol */
+}
+
+
+
+@media (max-width: 768px) {
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+.burger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #111;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+    }
 }
