@@ -77,4 +77,3 @@ Ce projet est une page web simple en **HTML/CSS** présentant trois projets :
 2. **Maquette Netflix** – Reproduction avec Figma  
 3. **Site de vente de vêtement** – Production d’un site e-commerce
 
- transition: all 0.3s ease;
