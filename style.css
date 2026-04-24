@@ -417,6 +417,9 @@ footer {
   flex-wrap: wrap;
   padding: 2rem;
   text-align: center;
+  
+  width: 100%;
+  margin-top: 3rem;
 }
 
 footer a {
@@ -437,7 +440,6 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-
   
   .container {
     width: 95%;
@@ -557,13 +559,22 @@ footer a:hover {
     font-size: 1rem;
     border-radius: 1rem;
   }
+  .project button {
+  width: 90%;
+  max-width: 18rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  display: block;
+  margin: 1rem auto;
+}
 
   footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 3rem;
-    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    gap: 1rem;
   }
 
   footer div {
@@ -603,3 +614,28 @@ footer a:hover {
     display: block;
     border-radius: 1rem;
   }
+  
+.skills-double {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.box {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.skill-top {
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.progress {
+  height: 0.6rem;
+}
+
+.progress-bar {
+  height: 100%;
+}
+} 
