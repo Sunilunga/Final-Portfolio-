@@ -22,7 +22,9 @@ Portfolio personnel réalisé en HTML et CSS vanilla.
 ![screenshot](assets/images/profil.webp)
 
 ## Lien du projet
-https://https://PORTFOLIO sun.com.netlify.app
+https://sunilunga.github.io/Final-Portfolio-/
+
+https://www.figma.com/design/7Gzg9lU01CL2LT5XOds9Rg/Portfolio?t=qHEFE3BEftJH53mU-0
 
 ##  Installation
 ```bash
